@@ -13,5 +13,5 @@ Tushar Shetty - PES1UG19CS544
 3. Run each of the MATLAB files and change path as required
 4. The intermediate outputs will now be stored in processed-x for each category/class
 5. Store each of the processed-x folders in a separate folder and name the parent folder as categories. This will be the input for our CNN
-6. Run kidney-and-tumor-detection.ipynb (works well on google colab)
+6. Run kidney-and-tumor-detection.ipynb (works well on google colab or on any other ipynb editor)
 
