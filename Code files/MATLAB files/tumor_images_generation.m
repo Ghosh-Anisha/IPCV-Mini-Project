@@ -12,6 +12,7 @@ for i=1:1340
     %thresholding
     T=0.67;
     res= imbinarize(morphI,T);
+    %removes all connected components (objects) that have fewer than P pixels
     LB = 1000;
     res = bwareaopen(res,LB);
     morphI = imerode(res,se2);
